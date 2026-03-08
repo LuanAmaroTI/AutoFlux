@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manifesto do aplicativo AutoFlux -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissão de internet para conexão com Firebase -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AutoFlux"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutoFlux">
+
+        <!-- Tela de Login: Definida como tela inicial (LAUNCHER) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Tela Principal: Exibe saldo e navegação -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Tela de Nova Movimentação: Formulário de cadastro -->
+        <activity
+            android:name=".NovaMovimentacaoActivity"
+            android:exported="false"
+            android:label="Nova Movimentação" />
+
+        <!-- Tela de Histórico: Lista de registros -->
+        <activity
+            android:name=".HistoricoActivity"
+            android:exported="false"
+            android:label="Histórico" />
+
+    </application>
+
+</manifest>

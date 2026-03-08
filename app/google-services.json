@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321333077623",
+    "project_id": "auto-eletrica-penha",
+    "storage_bucket": "auto-eletrica-penha.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321333077623:android:4a9aec411808d074fb8872",
+        "android_client_info": {
+          "package_name": "com.autoeletricapenha.autoflux"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3CJqZbt8hLqh_WlB2zrGrKBZ-h9q_EVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

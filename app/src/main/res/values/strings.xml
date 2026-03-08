@@ -1,0 +1,9 @@
+<resources>
+    <!-- Nome do Aplicativo -->
+    <string name="app_name">AutoFlux</string>
+    <!-- Rótulos e Mensagens -->
+    <string name="txt_saldo">Saldo Atual</string>
+    <string name="btn_nova">Nova Movimentação</string>
+    <string name="btn_historico">Ver Histórico</string>
+    <string name="btn_salvar">Salvar</string>
+</resources>

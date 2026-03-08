@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base do aplicativo usando MaterialComponents para compatibilidade com os botões modernos -->
+    <style name="Theme.AutoFlux" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Cores primárias -->
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryVariant">#1565C0</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <!-- Cores secundárias -->
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
